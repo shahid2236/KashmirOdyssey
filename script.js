@@ -21,16 +21,16 @@ tl.from("#loader h3", {
   })
 
 tl.from("#workingarea h1 span", {
-//     y: 100,
-//     opacity: 0,
-//     stagger: 0.5,
-//     duration: 0.6,
-//     delay: -0.5
-//   })
+    y: 100,
+    opacity: 0,
+    stagger: 0.5,
+    duration: 0.6,
+    delay: -0.5
+  })
 
-//   tl.to("#loader", {
-//     display: "none"
-//   })
+  tl.to("#loader", {
+    display: "none"
+  })
 
 
 
