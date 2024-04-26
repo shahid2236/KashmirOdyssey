@@ -1,0 +1,116 @@
+@font-face {
+    font-family: nb;
+    src: url(./assets/NBInternationalProBoo.ttf);
+}
+
+@font-face {
+    font-family: rejouice;
+    src: url(./assets/Rejouice-Headline.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "nb";
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+}
+#top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #000; */
+    pointer-events: none;
+}
+#workingarea{
+    height: 100vh;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#nav {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav a {
+    color: #000;
+    font-family: "nb";
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+    pointer-events: all;
+}
+#nright{
+    display: flex;
+
+    gap: 60px;
+}
+#workingarea h1{
+    font-family: rejouice;
+    font-size: 20vw;
+    font-weight: 100;
+    line-height: 20vw;
+    
+}
+#workingarea h1 span{
+    font-family: rejouice;
+    display: inline-block;
+    color: #fff;
+}
+#back img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+#loader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 7px;
+}
+
+#loader h3{
+    font-weight: 100;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #faf8f3;
+    position: relative;
+}
+#page2-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #00000092;
+    height: 20%;
+    margin: 0 4vw;
+    padding-bottom: 1.3vw;
+}
